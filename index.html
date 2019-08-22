@@ -38,8 +38,17 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#showcase">Home</a></li>
                     <li><a href="#info1">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Twitter</a></li>
+                        </ul>
+                    </li>
                 </ul>
+
                 <ul>
                     <form class="navbar-form navbar-left" action="/action_page.php">
                         <div class="input-group">
@@ -331,13 +340,13 @@
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Are you sure?</h5>
+                                        <h5 class="modal-title" id="exampleModalLabel">Do you want to submit your response?</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                       </button>
                                     </div>
                                     <div class="modal-body">
-                                        ...
+                                        <p> Thanks for writing to us. </p>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -365,9 +374,7 @@
         <h2> Let's Connect</h2>
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-google"></a>
         <a href="#" class="fa fa-linkedin"></a>
-        <a href="#" class="fa fa-youtube"></a>
         <a href="#" class="fa fa-instagram"></a>
     </footer>
 
@@ -377,44 +384,44 @@
     <script>
         window.sr = ScrollReveal();
         sr.reveal('.navbar', {
-            duration: 4000,
+            duration: 2000,
             origin: 'bottom'
         });
         sr.reveal('.showcase-left', {
-            duration: 4000,
+            duration: 2000,
             origin: 'top',
             distance: '300px'
         });
         sr.reveal('.showcase-right', {
-            duration: 4000,
+            duration: 2000,
             origin: 'right',
             distance: '300px'
         });
         sr.reveal('.showcase-btn', {
-            duration: 4000,
-            delay: 3000,
+            duration: 2000,
+            delay: 2000,
             origin: 'bottom'
         });
         sr.reveal('#testimonial div', {
-            duration: 4000,
+            duration: 2000,
             origin: 'bottom'
         });
         sr.reveal('#testimonial1 div', {
-            duration: 4000,
+            duration: 2000,
             origin: 'bottom'
         });
         sr.reveal('#testimonial2 div', {
-            duration: 4000,
+            duration: 2000,
             origin: 'bottom'
         });
         sr.reveal('.info-left', {
-            duration: 4000,
+            duration: 2000,
             origin: 'left',
             distance: '300px',
             viewFactor: 0.1
         });
         sr.reveal('.info-right', {
-            duration: 4000,
+            duration: 2000,
             origin: 'right',
             distance: '320px',
             viewFactor: 0.2
