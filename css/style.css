@@ -7,10 +7,15 @@ body {
     background-color: rgb(170, 175, 92);
     border: 0;
     font-family: Poppins;
+    color: #000 !important
+}
+
+#nav1 {
+    color: #000;
 }
 
 .navbar-brand {
-    font-size: 35px;
+    font-size: 30px;
     color: #000 !important;
     font-weight: bold;
 }
@@ -36,11 +41,11 @@ p {
 #showcase img {
     width: 100%;
     margin-left: 10px;
-    margin-top: 90px;
+    margin-top: 93px;
 }
 
 #showcase .showcase-right {
-    margin-top: 130px;
+    margin-top: 90px;
 }
 
 #testimonial {
@@ -67,7 +72,7 @@ p {
     background: #bbc074;
     padding: 50px 0 30px 0;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     text-decoration: none;
 }
 
@@ -83,7 +88,7 @@ p {
 }
 
 #info1 .info-right {
-    margin-top: 120px;
+    margin-top: 90px;
 }
 
 #info3 .info-left img {
@@ -93,7 +98,7 @@ p {
 }
 
 #info3 .info-right {
-    margin-top: 120px;
+    margin-top: 90px;
 }
 
 #info5 .info-left img {
@@ -103,7 +108,7 @@ p {
 }
 
 #info5 .info-right {
-    margin-top: 120px;
+    margin-top: 90px;
 }
 
 #info6 .info-right img {
@@ -113,7 +118,7 @@ p {
 }
 
 #info6 .info-left {
-    margin-top: 120px;
+    margin-top: 90px;
 }
 
 #info2 {
@@ -125,6 +130,10 @@ p {
     width: 100%;
     margin-left: 60px;
     margin-top: 90px;
+}
+
+#info8 {
+    background-color: rgb(255, 249, 249);
 }
 
 #contact {
@@ -193,11 +202,10 @@ p {
 }
 
 .map-container-6 iframe {
-    left: 0;
-    top: 0;
     height: 100%;
     width: 100%;
     position: absolute;
+    margin-left: 40px;
 }
 
 #exModal {
