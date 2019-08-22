@@ -106,7 +106,7 @@ p {
     margin-top: 120px;
 }
 
-#info6 .info-right {
+#info6 .info-right img {
     width: 100%;
     margin-left: 60px;
     margin-top: 90px;
@@ -119,6 +119,12 @@ p {
 #info2 {
     margin: 20px 0 60px 0;
     background-color: #bbc074;
+}
+
+#info8 .info-left .info-right {
+    width: 100%;
+    margin-left: 60px;
+    margin-top: 90px;
 }
 
 #contact {
@@ -177,4 +183,23 @@ p {
     background: #125688;
     color: white;
     border-radius: 50%;
+}
+
+.map-container-6 {
+    overflow: hidden;
+    padding-bottom: 60%;
+    position: relative;
+    height: 0;
+}
+
+.map-container-6 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#exModal {
+    color: black;
 }
