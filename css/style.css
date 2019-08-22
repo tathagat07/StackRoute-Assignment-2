@@ -122,11 +122,11 @@ p {
 }
 
 #contact {
-    background: url(../img/image3.png);
+    background-color: #bbc074;
     padding: 40px;
     color: #fff;
-    border-top: #333 7px solid;
-    border-bottom: #333 7px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 footer {
